@@ -6,7 +6,7 @@ on: # When will it trigger
   workflow_dispatch:
 jobs:
   build_and_test:
-    runs-on: ubunthu-20.04
+    runs-on: ubuntu-20.04
     steps:
       - name: Clone Code
         uses: actions/cheackout@v2 # what it does
