@@ -9,7 +9,7 @@ jobs:
     runs-on: ubuntu-20.04
     steps:
       - name: Clone Code
-        uses: actions/cheackout@v2 # what it does
+        uses: actions/checkout@v2 # what it does
       - name: compile Java File # Name of the steps 
         shell: bash # what shell to use
         run: javac Main.java # What it does
