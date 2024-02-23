@@ -3,7 +3,7 @@ on: # When will it trigger
   push: # On push it will trigger
     branches: # Which branch will it trigger 
       - main # On Main branch it will trigger
-  workflow_dispatch
+  workflow_dispatch:
 jobs:
   build_and_test:
     runs-on: ubunthu-20.04
